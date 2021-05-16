@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 Route::post("/read_excel","App\Http\Controllers\CsvimportController@store");
 Route::get("/read_excel","App\Http\Controllers\CsvimportController@create");
-Route::get("/csvdata","App\Http\Controllers\CsvimportController@index");
+Route::get("/","App\Http\Controllers\CsvimportController@index");
